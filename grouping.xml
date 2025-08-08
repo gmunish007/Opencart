@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="Opencart">
+        <groups>
+            <run>
+                <include name="Regression" />
+                <include name="Sanity" />
+            </run>
+        </groups>
+        <classes>
+            <class name="TestCases.LoginTest" />
+            <class name="TestCases.RegistrationTest" />
+        </classes>
+    </test>
+</suite>
