@@ -35,6 +35,6 @@ public class LoginTest extends BaseClass {
         //Assert.assertEquals(targetPage, true, "Login failed");
         Assert.assertTrue(targetPage);
 
-        System.out.println("File updated.");
+        System.out.println("Updated.");
     }
 }
